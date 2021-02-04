@@ -73,17 +73,42 @@
         .avatar {
            height: 6.8125rem;
            width: 6.8125rem;
-           margin: -55px auto;
+           margin: -3.4375rem auto 1.625rem auto;
            background-image: url('../../images/image-victor.jpg');
            background-repeat: no-repeat;
            background-size: cover;
-           border-radius: 50px;
+           border-radius: 3.125rem;
            border: 7px solid white;
 
         }
 
 
         .info {
+            margin: 1.625rem auto;
+            text-align: center;
+            border-bottom: thin solid $DarkGray;
+
+            p:first-of-type {
+                color: $VeryDarkBlue;
+                font-size: 0.9375rem;
+                font-weight: $font-bold;
+
+                @include breakpoint-up(large){
+                    font-size: 1rem;
+                }
+
+                span {
+                    color: $DarkGray;
+                    font-weight: $font-reg;
+                }
+            }
+
+            p:last-of-type {
+                color: $DarkGray;
+                font-size: 0.75rem;
+
+            }
+
 
         }
 

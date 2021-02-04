@@ -94,11 +94,39 @@ body {
 .card-header .avatar {
   height: 6.8125rem;
   width: 6.8125rem;
-  margin: -55px auto;
+  margin: -3.4375rem auto 1.625rem auto;
   background-image: url("../../images/image-victor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   border: 7px solid white;
+}
+
+.card-header .info {
+  margin: 1.625rem auto;
+  text-align: center;
+  border-bottom: thin solid #969696;
+}
+
+.card-header .info p:first-of-type {
+  color: #2d3248;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+@media (min-width: 64em) {
+  .card-header .info p:first-of-type {
+    font-size: 1rem;
+  }
+}
+
+.card-header .info p:first-of-type span {
+  color: #969696;
+  font-weight: 400;
+}
+
+.card-header .info p:last-of-type {
+  color: #969696;
+  font-size: 0.75rem;
 }
 /*# sourceMappingURL=style.css.map */
