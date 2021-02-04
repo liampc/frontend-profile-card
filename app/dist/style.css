@@ -43,14 +43,6 @@ body {
   }
 }
 
-.main-card {
-  background-color: white;
-  height: 23.475rem;
-  width: 20.5rem;
-  z-index: 1;
-  margin: 9.125rem 1.5rem auto 1.5rem;
-}
-
 .main-circleBot {
   position: absolute;
   height: 18.25rem;
@@ -70,5 +62,32 @@ body {
     width: 45.4375rem;
     background-size: 140%;
   }
+}
+
+.card {
+  background-color: white;
+  height: 23.475rem;
+  width: 20.5rem;
+  z-index: 1;
+  margin: 9.125rem 1.5rem auto 1.5rem;
+  border-radius: 1.125rem;
+  -webkit-box-shadow: 1px 3px 40px grey;
+          box-shadow: 1px 3px 40px grey;
+}
+
+@media (min-width: 64em) {
+  .card {
+    height: 23.6875rem;
+    width: 22.0625rem;
+    margin: 10.75rem auto;
+  }
+}
+
+.card-header .banner {
+  height: 8.875rem;
+  width: 100%;
+  background-image: url("../../images/bg-pattern-card.svg");
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
 }
 /*# sourceMappingURL=style.css.map */

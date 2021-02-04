@@ -21,14 +21,6 @@
         }
     }
 
-    &-card {
-        background-color: white;
-        height: 23.475rem;
-        width: 20.5rem;
-        z-index: 1;
-        margin: 9.125rem 1.5rem auto 1.5rem;
-        
-    }
 
     &-circleBot {
         position: absolute;
@@ -48,5 +40,61 @@
             background-size: 140%;
             
         }
+    }
+}
+
+
+
+.card {
+    background-color: white;
+    height: 23.475rem;
+    width: 20.5rem;
+    z-index: 1;
+    margin: 9.125rem 1.5rem auto 1.5rem;
+    border-radius: 1.125rem;
+    box-shadow: 1px 3px 40px grey;
+
+    @include breakpoint-up('large'){
+        height: 23.6875rem;
+        width: 22.0625rem;
+        margin: 10.75rem auto;
+    }
+
+    &-header {
+
+        .banner {
+            height: 8.875rem;
+            width: 100%;
+            background-image: url('../../images/bg-pattern-card.svg');
+            border-top-left-radius: 1.125rem;
+            border-top-right-radius: 1.125rem;
+        }
+
+        .avatar {
+
+        }
+
+        .info {
+
+        }
+
+    }
+
+
+
+    &-stats {
+
+        .followers {
+
+        }
+
+        .likes {
+
+        }
+
+        .photos {
+
+        }
+
     }
 }
