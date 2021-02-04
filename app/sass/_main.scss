@@ -21,7 +21,19 @@
         width: 20.5rem;
         z-index: 1;
         margin: 9.125rem 1.5rem auto 1.5rem;
+        
     }
 
-   
+    &-circleBot {
+        position: absolute;
+        height: 18.25rem;
+        width: 13.4375rem;
+        bottom: 0;
+        right: 0;
+        background-image: url(../../images/bg-pattern-bottom.svg);
+        background-size: 250%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        opacity: 0.5
+    }
 }
