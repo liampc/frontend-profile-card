@@ -35,6 +35,14 @@ body {
   opacity: 0.5;
 }
 
+@media (min-width: 64em) {
+  .main-circleTop {
+    height: 33rem;
+    width: 43.5rem;
+    background-size: 160%;
+  }
+}
+
 .main-card {
   background-color: white;
   height: 23.475rem;
@@ -49,10 +57,18 @@ body {
   width: 13.4375rem;
   bottom: 0;
   right: 0;
-  background-image: url(../../images/bg-pattern-bottom.svg);
+  background-image: url("../../images/bg-pattern-bottom.svg");
   background-size: 250%;
   background-repeat: no-repeat;
   background-position: left top;
   opacity: 0.5;
+}
+
+@media (min-width: 64em) {
+  .main-circleBot {
+    height: 21.625rem;
+    width: 45.4375rem;
+    background-size: 140%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
