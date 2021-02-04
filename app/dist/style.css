@@ -90,4 +90,15 @@ body {
   border-top-left-radius: 1.125rem;
   border-top-right-radius: 1.125rem;
 }
+
+.card-header .avatar {
+  height: 6.8125rem;
+  width: 6.8125rem;
+  margin: -55px auto;
+  background-image: url("../../images/image-victor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  border: 7px solid white;
+}
 /*# sourceMappingURL=style.css.map */
