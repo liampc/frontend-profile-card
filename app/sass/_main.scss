@@ -14,7 +14,7 @@
         background-position: 101% bottom;
         opacity: 0.5;
 
-        @include breakpoint-up('large'){
+        @include breakpoint-up('medium'){
             height: 33rem;
             width: 43.5rem;
             background-size: 160%;
@@ -34,7 +34,7 @@
         background-position: left top;
         opacity: 0.5;
 
-        @include breakpoint-up('large'){
+        @include breakpoint-up('medium'){
             height: 21.625rem;
             width: 45.4375rem;
             background-size: 140%;
@@ -54,7 +54,7 @@
     border-radius: 1.125rem;
     box-shadow: 1px 3px 40px grey;
 
-    @include breakpoint-up('large'){
+    @include breakpoint-up('medium'){
         height: 23.6875rem;
         width: 22.0625rem;
         margin: 10.75rem auto;

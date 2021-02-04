@@ -35,7 +35,7 @@ body {
   opacity: 0.5;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .main-circleTop {
     height: 33rem;
     width: 43.5rem;
@@ -56,7 +56,7 @@ body {
   opacity: 0.5;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .main-circleBot {
     height: 21.625rem;
     width: 45.4375rem;
@@ -75,7 +75,7 @@ body {
           box-shadow: 1px 3px 40px grey;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .card {
     height: 23.6875rem;
     width: 22.0625rem;
