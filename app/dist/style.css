@@ -129,4 +129,40 @@ body {
   color: #969696;
   font-size: 0.75rem;
 }
+
+.card-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1.625rem auto;
+}
+
+.card-stats div > * {
+  margin: 0;
+  text-align: center;
+}
+
+.card-stats div > p:first-of-type {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+@media (min-width: 40em) {
+  .card-stats div > p:first-of-type {
+    font-size: 1rem;
+  }
+}
+
+.card-stats div > p:last-of-type {
+  font-size: .625rem;
+  color: #969696;
+}
 /*# sourceMappingURL=style.css.map */

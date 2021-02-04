@@ -118,6 +118,32 @@
 
     &-stats {
 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1.625rem auto;
+        
+        div > * {
+            margin: 0;
+            text-align: center;
+        }
+
+        div > p:first-of-type {
+            font-size: 0.9375rem;
+            font-weight: $font-bold;
+            color: $VeryDarkBlue;
+
+            @include breakpoint-up('medium'){
+                font-size: 1rem;
+            }
+        }
+
+        div > p:last-of-type {
+            font-size: .625rem;
+            color: $DarkGray;
+
+        }
+
         .followers {
 
         }
