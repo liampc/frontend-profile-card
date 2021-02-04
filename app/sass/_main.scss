@@ -2,7 +2,10 @@
     height: 100vh;
     background-color: $DarkCyan;
 
+    display:flex;
+
     &-circleTop {
+        position: absolute;
         height: 15.75rem;
         width: 13.125rem;
         background-image: url('../../images/bg-pattern-top.svg');
@@ -12,13 +15,13 @@
         opacity: 0.5
     }
 
-    // &-card {
+    &-card {
+        background-color: white;
+        height: 23.475rem;
+        width: 20.5rem;
+        z-index: 1;
+        margin: 9.125rem 1.5rem auto 1.5rem;
+    }
 
-    // }
-
-    // &-circleBot {
-    //     background-image: url('../../images/bg-pattern-bottom.svg');
-    //     height: 100%;
-    //     width: 100%;
-    // }
+   
 }

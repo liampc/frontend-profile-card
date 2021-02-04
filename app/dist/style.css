@@ -19,9 +19,13 @@ body {
 .main {
   height: 100vh;
   background-color: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-circleTop {
+  position: absolute;
   height: 15.75rem;
   width: 13.125rem;
   background-image: url("../../images/bg-pattern-top.svg");
@@ -29,5 +33,13 @@ body {
   background-repeat: no-repeat;
   background-position: 101% bottom;
   opacity: 0.5;
+}
+
+.main-card {
+  background-color: white;
+  height: 23.475rem;
+  width: 20.5rem;
+  z-index: 1;
+  margin: 9.125rem 1.5rem auto 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
