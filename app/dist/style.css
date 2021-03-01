@@ -17,14 +17,15 @@ body {
 }
 
 .main {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #19a2ae;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main-circleTop {
+.main::before {
+  content: '';
   position: absolute;
   height: 15.75rem;
   width: 13.125rem;
@@ -36,14 +37,15 @@ body {
 }
 
 @media (min-width: 40em) {
-  .main-circleTop {
+  .main::before {
     height: 33rem;
     width: 43.5rem;
     background-size: 160%;
   }
 }
 
-.main-circleBot {
+.main::after {
+  content: '';
   position: absolute;
   height: 18.25rem;
   width: 13.4375rem;
@@ -57,7 +59,7 @@ body {
 }
 
 @media (min-width: 40em) {
-  .main-circleBot {
+  .main::after {
     height: 21.625rem;
     width: 45.4375rem;
     background-size: 140%;
@@ -83,7 +85,7 @@ body {
   }
 }
 
-.card-header .banner {
+.card__banner {
   height: 8.875rem;
   width: 100%;
   background-image: url("../../images/bg-pattern-card.svg");
@@ -91,7 +93,7 @@ body {
   border-top-right-radius: 1.125rem;
 }
 
-.card-header .avatar {
+.card__avatar {
   height: 6.8125rem;
   width: 6.8125rem;
   margin: -3.4375rem auto 1.625rem auto;
@@ -102,35 +104,35 @@ body {
   border: 7px solid white;
 }
 
-.card-header .info {
+.card__info {
   margin: 1.625rem auto;
   text-align: center;
   border-bottom: thin solid #969696;
 }
 
-.card-header .info p:first-of-type {
+.card__info p:first-of-type {
   color: #2d3248;
   font-size: 0.9375rem;
   font-weight: 700;
 }
 
 @media (min-width: 64em) {
-  .card-header .info p:first-of-type {
+  .card__info p:first-of-type {
     font-size: 1rem;
   }
 }
 
-.card-header .info p:first-of-type span {
+.card__info p:first-of-type span {
   color: #969696;
   font-weight: 400;
 }
 
-.card-header .info p:last-of-type {
+.card__info p:last-of-type {
   color: #969696;
   font-size: 0.75rem;
 }
 
-.card-stats {
+.card__stats {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,24 +146,24 @@ body {
   margin: 1.625rem auto;
 }
 
-.card-stats div > * {
+.card__stats div > * {
   margin: 0;
   text-align: center;
 }
 
-.card-stats div > p:first-of-type {
+.card__stats div > p:first-of-type {
   font-size: 0.9375rem;
   font-weight: 700;
   color: #2d3248;
 }
 
 @media (min-width: 40em) {
-  .card-stats div > p:first-of-type {
+  .card__stats div > p:first-of-type {
     font-size: 1rem;
   }
 }
 
-.card-stats div > p:last-of-type {
+.card__stats div > p:last-of-type {
   font-size: .625rem;
   color: #969696;
 }
