@@ -1,13 +1,19 @@
 # Frontend Mentor - Profile card component
 
+Hello! This is my solution for Profile card component coding challenge from https://www.frontendmentor.io
 
-Hello! This is my solution for Profile card component coding challenge
 
+### Preview of the original design 
 
-### Preview of the original desgin (./design/desktop-preview.jpg)
-
+![desktop-preview](design/desktop-preview.jpg)
+![mobile-preview](design/mobile-design.jpg)
 
 ### Practice using:
 1. HTML
 2. CSS
 3. SASS
+
+
+### Live Preview 
+
+https://liampc.github.io/frontend-profile-card/
